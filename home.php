@@ -451,7 +451,7 @@
 							<div class="aside-body">
 								<div class="featured-author">
 									<div class="featured-author-inner">
-										<div class="featured-author-cover" style="background-image: url('images/18.JPG');">
+										<div class="featured-author-cover" style="background-image: url('images/18.jpg');">
 											<div class="badges">
 												<div class="badge-item"><i class="ion-star"></i></div>
 											</div>
@@ -460,7 +460,6 @@
 													<img src="images/IMG_0785.jpg" loading="lazy" alt="Sample Article">
 												</figure>
 												<div class="featured-author-info">
-													<!-- <h2 class="name" style="color:blue;">Dr. Duke Randolph </br> Founder</h2> -->
 													<div class="desc"></div>
 												</div>
 											</div>
