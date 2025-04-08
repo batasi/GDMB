@@ -451,7 +451,7 @@
 							<div class="aside-body">
 								<div class="featured-author">
 									<div class="featured-author-inner">
-										<div class="featured-author-cover" style="background-image: url('images/18.jpg');">
+										<div class="featured-author-cover" style="background-image: url('images/18.JPG');">
 											<div class="badges">
 												<div class="badge-item"><i class="ion-star"></i></div>
 											</div>
