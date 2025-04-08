@@ -847,10 +847,10 @@
 								<h1 class="title-col">
 									Hot News
 									<div class="carousel-nav" id="hot-news-nav">
-										<div class="prev">
+										<div class="prev" style="background-color:black;">
 											<i class="ion-ios-arrow-left"></i>
 										</div>
-										<div class="next">
+										<div class="next" style="background-color:black;">
 											<i class="ion-ios-arrow-right"></i>
 										</div>
 									</div>
