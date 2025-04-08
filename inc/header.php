@@ -8,6 +8,11 @@
 		<meta name="author" content="Batasi">
 		<meta name="keyword" content="global, ministries, mission, daily, daily-bread, Duke Randolph, Solomon Batasi">
 		<title>Global Ministries Daily Bread</title>
+		<!-- favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
 		<!-- IonIcons -->
