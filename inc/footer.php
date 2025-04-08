@@ -7,7 +7,7 @@
 							<h1 class="block-title">Global Ministries Daily Bread</h1>
 							<div class="block-body">
 								<figure class="foot-logo">
-									<img src="images//1720010940_church-removebg-preview.png" class="img-responsive" alt="Logo">
+									<img src="images//1720010940_church-removebg-preview.png" loading="lazy" class="img-responsive" alt="Logo">
 								</figure>
 							</div>
 						</div>

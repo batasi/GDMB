@@ -6,7 +6,7 @@
 						<aside>
 							<div class="aside-body">
 								<figure class="ads">
-									<img src="images/blogs/baptism.png">
+									<img loading="lazy" src="images/blogs/baptism.png">
 									<figcaption>Duke Fitz-Theodore Randolph</figcaption>
 								</figure>
 							</div>
@@ -18,7 +18,7 @@
 									<div class="inner">
 										<figure>
 											<a href="./?p=blogs/shepherd">												
-												<img src="images/blogs/shepherd.png">
+												<img loading="lazy" src="images/blogs/shepherd.png">
 											</a>
 										</figure>
 										<div class="details">
@@ -37,7 +37,7 @@
 									<div class="inner">
 										<figure>
 											<a href="./?p=blogs/faith">												
-												<img src="images/4.jpg">
+												<img loading="lazy" src="images/4.jpg">
 											</a>
 										</figure>
 										<div class="details">

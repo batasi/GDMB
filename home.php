@@ -28,7 +28,7 @@
 							<article class="featured">
 								<div class="overlay"></div>
 								<figure>
-									<img src="images/20.png" alt="Sunday Worship Service">
+									<img src="images/20.png" loading="lazy" alt="Sunday Worship Service">
 								</figure>
 								<div class="details">
 									<div class="category"><a href="#">Sunday Worship Service</a></div>
@@ -457,7 +457,7 @@
 											</div>
 											<div class="featured-author-center">
 												<figure class="featured-author-picture">
-													<img src="images/IMG_0785.jpg" alt="Sample Article">
+													<img src="images/IMG_0785.jpg" loading="lazy" alt="Sample Article">
 												</figure>
 												<div class="featured-author-info">
 													<!-- <h2 class="name" style="color:blue;">Dr. Duke Randolph </br> Founder</h2> -->
@@ -807,7 +807,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=blogs/baptism">
-									<img src="images/2.jpg" alt="Sermon of the Week">
+									<img src="images/2.jpg" loading="lazy" alt="Sermon of the Week">
 								</a>
 							</figure>
 							<div class="padding">
@@ -824,7 +824,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=blogs/shepherd">
-									<img src="images/blogs/shepherd.png" alt="Sermon of the Week">
+									<img src="images/blogs/shepherd.png" loading="lazy" alt="Sermon of the Week">
 								</a>
 							</figure>
 							<div class="padding">
@@ -841,7 +841,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=blogs/faith">
-									<img src="images/4.jpg" alt="Sermon of the Week">
+									<img loading="lazy" src="images/4.jpg" alt="Sermon of the Week">
 								</a>
 							</figure>
 							<div class="padding">
@@ -858,7 +858,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/13.jpg" alt="Devotional Highlight">
+									<img src="images/13.jpg" loading="lazy" alt="Devotional Highlight">
 								</a>
 							</figure>
 							<div class="padding">
@@ -876,7 +876,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/15.jpg" alt="Scripture of the Week">
+									<img src="images/15.jpg" loading="lazy" alt="Scripture of the Week">
 								</a>
 							</figure>
 							<div class="padding">
@@ -894,7 +894,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/16.jpg" alt="Prayer Focus">
+									<img src="images/16.jpg" loading="lazy" alt="Prayer Focus">
 								</a>
 							</figure>
 							<div class="padding">
@@ -912,7 +912,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/17.jpg" alt="Worship Moment">
+									<img src="images/17.jpg" loading="lazy" alt="Worship Moment">
 								</a>
 							</figure>
 							<div class="padding">
@@ -930,7 +930,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/18.jpg" alt="Pastor Quote">
+									<img src="images/18.jpg" loading="lazy" alt="Pastor Quote">
 								</a>
 							</figure>
 							<div class="padding">
@@ -947,7 +947,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/19.jpg" alt="Pastor Quote">
+									<img src="images/19.jpg" loading="lazy" alt="Pastor Quote">
 								</a>
 							</figure>
 							<div class="padding">
@@ -964,7 +964,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=503">
-									<img src="images/20.png" alt="Worship Moment">
+									<img src="images/20.png" loading="lazy" alt="Worship Moment">
 								</a>
 							</figure>
 							<div class="padding">

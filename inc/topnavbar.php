@@ -5,7 +5,7 @@
 						<div class="col-md-3 col-sm-12">
 							<div class="brand">
 								<a href="./">
-									<img src="images/1720010940_church-removebg-preview.png" alt="Magz Logo">
+									<img loading="lazy"src="images/1720010940_church-removebg-preview.png" alt="Magz Logo">
 								</a>
 							</div>						
 						</div>
@@ -141,7 +141,7 @@
 														<div class="inner">
 															<figure>
 																<a href="./?p=503">
-																	<img src="images/2.jpg" alt="Baptism Event 2024">
+																	<img src="images/2.jpg" loading="lazy" alt="Baptism Event 2024">
 																</a>
 															</figure>
 															<div class="padding">

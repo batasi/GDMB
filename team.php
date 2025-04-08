@@ -15,7 +15,7 @@
 						<div class="inner">
 							<figure>
 								<a href="#">
-									<img src="images/team/duke.jpg" alt="Sample Article">
+									<img src="images/team/duke.jpg" loading="lazy" alt="Sample Article">
 								</a>
 							</figure>
 							<div class="padding">
@@ -29,7 +29,7 @@
 						<div class="inner">
 							<figure>
 								<a href="#">
-									<img src="images/team/stela.png" alt="Sample Article">
+									<img src="images/team/stela.png" loading="lazy" alt="Sample Article">
 								</a>
 							</figure>
 							<div class="padding">

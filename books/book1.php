@@ -6,7 +6,7 @@
 						<aside>
 							<div class="aside-body">
 								<figure class="ads">
-									<img src="images/books/book1.png">
+									<img loading="lazy" src="images/books/book1.png">
 									<figcaption>Duke Fitz-Theodore Randolph</figcaption>
 								</figure>
 							</div>
