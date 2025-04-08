@@ -1,0 +1,28 @@
+# Disable directory listing
+Options -Indexes
+
+# Protect the .env file
+<FilesMatch "^\.env$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Protect other sensitive files (e.g., initialize.php, .htpasswd, etc.)
+<FilesMatch "^.*(\.env|initialize\.php|\.htpasswd)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Prevent access to hidden files (those starting with a dot)
+RedirectMatch 404 /\..*$
+
+# Force HTTPS (if you have an SSL certificate)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteBase /
+
+# This rewrites URLs that have '?p=xxx' and makes them clean
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?p=$1 [L,QSA]
