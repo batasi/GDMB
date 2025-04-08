@@ -1,5 +1,5 @@
 <header class="primary">
-			<div class="firstbar" style="background-color:;">
+			<div class="firstbar" style="background-color:#112243;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-12">
@@ -48,17 +48,17 @@
 								<div class="help-block">
 									<div>Popular:</div>
 									<ul>
-										<li><a href="./?p=books/book1">A Theory of Lay Ministry Praxis</a></li>
-										<li><a href="#">Duke Randolph</a></li>
-										<li><a href="#">Empowerment missions</a></li>
+										<li><a href="./?p=books/book1" style="color:white;">A Theory of Lay Ministry Praxis</a></li>
+										<li><a href="#" style="color:white;">Duke Randolph</a></li>
+										<li><a href="#" style="color:white;">Empowerment missions</a></li>
 									</ul>
 								</div>
 							</form>								
 						</div>
 						<div class="col-md-3 col-sm-12 text-right">
 							<ul class="nav-icons">
-								<li><a href="./?p=register"><i class="ion-person-add"></i><div>Register</div></a></li>
-								<li><a href="./?p=login"><i class="ion-person"></i><div>Login</div></a></li>
+								<li><a href="./?p=register" style="color:white;"><i class="ion-person-add"></i><div>Register</div></a></li>
+								<li><a href="./?p=login" style="color:white;"><i class="ion-person"></i><div>Login</div></a></li>
 							</ul>
 						</div>
 					</div>
@@ -66,13 +66,9 @@
 			</div>
 
 			<!-- Start nav -->
-			<nav class="menu">
+			<nav class="menu" style="background-color:#3f0e3e;">
 				<div class="container">
-					<!-- <div class="brand">
-						<a href="#">
-							<img src="images/1720010940_church-removebg-preview.png" alt="Magz Logo">
-						</a>
-					</div> -->
+					
 					<div class="mobile-toggle">
 						<a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
 					</div>
@@ -81,37 +77,28 @@
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
-							<li class="for-tablet nav-title"><a>Menu</a></li>
-							<li class="for-tablet"><a href="login.html">Login</a></li>
-							<li class="for-tablet"><a href="register.html">Register</a></li>
-							<li><a href="./">Home</a></li>
+							<li class="for-tablet nav-title"><a  style="color:white;">Menu</a></li>
+							<li class="for-tablet"><a href="./?p=login"  style="color:white;">Login</a></li>
+							<li class="for-tablet"><a href="./?p=register"  style="color:white;">Register</a></li>
+							<li><a href="./" style="color:white;">Home</a></li>
 							<li class="dropdown magz-dropdown">
-								<a href="./?p=about">About <i class="ion-ios-arrow-right"></i></a>
+								<a href="./?p=about"  style="color:white;">About <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="./?p=mission">Our Mission & Vision</a></li>
-									<!-- <li class="dropdown magz-dropdown">
-										<a href="#">Authentication <i class="ion-ios-arrow-right"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="login.html">Login</a></li>
-											<li><a href="register.html">Register</a></li>
-											<li><a href="forgot.html">Forgot Password</a></li>
-											<li><a href="reset.html">Reset Password</a></li>
-										</ul>
-									</li> -->
 									<li><a href="./?p=core_values">Core Values</a></li>
 									<li><a href="./?p=team">Our Team</a></li>
 									<li><a href="./?p=503">History</a></li>
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">Bible Blogs<i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#"  style="color:white;">Bible Blogs<i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="./?p=blogs/shepherd">Lord is my Shepherd</a></li>
 									<li><a href="./?p=blogs/faith">The power of faith</a></li>
 									<li><a href="./?p=blogs/baptism">Saved & Condemned</a></li>
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Events<i class="ion-ios-arrow-right"></i> <div class="badge">Upcoming</div></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#"  style="color:white;">Events<i class="ion-ios-arrow-right"></i> <div class="badge">Upcoming</div></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -153,45 +140,13 @@
 															</div>
 														</div>
 													</article>
-													<!-- <article class="article col-md-4 mini">
-														<div class="inner">
-															<figure>
-																<a href="single.html">
-																	<img src="images/news/img11.jpg" alt="Sample Article">
-																</a>
-															</figure>
-															<div class="padding">
-																<div class="detail">
-																	<div class="time">December 13, 2016</div>
-																	<div class="category"><a href="category.html">Lifestyle</a></div>
-																</div>
-																<h2><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
-															</div>
-														</div>
-													</article>
-													<article class="article col-md-4 mini">
-														<div class="inner">
-															<figure>
-																<a href="single.html">
-																	<img src="images/news/img14.jpg" alt="Sample Article">
-																</a>
-															</figure>
-															<div class="padding">
-																<div class="detail">
-																	<div class="time">December 14, 2016</div>
-																	<div class="category"><a href="category.html">Travel</a></div>
-																</div>
-																<h2><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
-															</div>
-														</div>
-													</article> -->
 												</div>
 											</div>
 										</div>								
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Books<i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#"  style="color:white;">Books<i class="ion-ios-arrow-right"></i></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -239,29 +194,17 @@
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">Appointments <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#" style="color:white;">Appointments <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
-									<!-- <li><a href="#"><i class="icon ion-person"></i> My Account</a></li>
-									<li><a href="#"><i class="icon ion-heart"></i> Favorite</a></li>
-									<li><a href="#"><i class="icon ion-chatbox"></i> Comments</a></li>
-									<li><a href="#"><i class="icon ion-key"></i> Change Password</a></li>
-									<li><a href="#"><i class="icon ion-settings"></i> Settings</a></li>
-									<li class="divider"></li>
-									<li><a href="#"><i class="icon ion-log-out"></i> Logout</a></li> -->
+								
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">Donations <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#" style="color:white;">Donations <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
-									<!-- <li><a href="#"><i class="icon ion-person"></i> My Account</a></li>
-									<li><a href="#"><i class="icon ion-heart"></i> Favorite</a></li>
-									<li><a href="#"><i class="icon ion-chatbox"></i> Comments</a></li>
-									<li><a href="#"><i class="icon ion-key"></i> Change Password</a></li>
-									<li><a href="#"><i class="icon ion-settings"></i> Settings</a></li>
-									<li class="divider"></li>
-									<li><a href="#"><i class="icon ion-log-out"></i> Logout</a></li> -->
+								
 								</ul>
 							</li>
-							<li><a href="./?p=contact">Contact us</a></li>
+							<li><a href="./?p=contact" style="color:white;">Contact us</a></li>
 
 						</ul>
 					</div>
