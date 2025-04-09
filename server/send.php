@@ -16,7 +16,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
         $mail->SMTPAuth = true;
         $mail->Username = $config['username'];
         $mail->Password = $config['password'];
-        $mail->SMTPSecure = $config['secure'];
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = $config['port'];
 
         //Recipients
