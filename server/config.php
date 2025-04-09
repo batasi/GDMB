@@ -9,3 +9,4 @@ $config = [
 	"from" => "batasieb3029@gmail.com",
 	"fromName" => "Global Ministries"
 ];
+?>

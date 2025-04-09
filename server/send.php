@@ -3,23 +3,24 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    require 'vendor/autoload.php';
-    require 'config.php';
+    require './vendor/autoload.php';
 
     $mail = new PHPMailer(true);
     try {
         //Server settings
         $mail->isSMTP();
-        $mail->Host = $config['host'];
+        $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = $config['username'];
-        $mail->Password = $config['password'];
-        $mail->SMTPSecure = $config['secure'];
-        $mail->Port = $config['port'];
+        $mail->Username = 'batasieb3029@gmail.com';
+        $mail->Password = 'fhcitoakdvfibswa';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
+
+
 
         //Recipients
-        $mail->setFrom($config['from'], $config['fromName']);
-        $mail->addAddress($config['sendTo']);
+        $mail->setFrom('batasieb3029@gmail.com', 'Global Ministries');
+        $mail->addAddress('info@globalministries-dailybread.org');
         // $mail->addAddress($_POST['email']);
 
         //Content
@@ -35,5 +36,5 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
         echo json_encode(['status' => false, "data" => "Message could not be sent\nMailer Error: " . $mail->ErrorInfo]);
     }
 }else{
-    echo "<h1>Access forbidden, kids!</h1>";
+    echo "<h1>Access forbidden, kid!</h1>";
 }
