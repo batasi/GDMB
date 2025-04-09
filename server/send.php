@@ -1,6 +1,4 @@
 <?php
-error_reporting(0); // uncomment this line for production
-//Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
