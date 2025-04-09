@@ -22,7 +22,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
         //Recipients
         $mail->setFrom($config['from'], $config['fromName']);
         $mail->addAddress($config['sendTo']);
-        $mail->addAddress($_POST['email']);
+        // $mail->addAddress($_POST['email']);
 
         //Content
         $mail->isHTML(true);
