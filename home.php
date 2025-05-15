@@ -22,32 +22,62 @@
 								</div>
 							</div>
 						</div> -->
+						<?php
+							// Pick a random verse reference (you can expand this list)
+							$references = [
+								"john 3:16",
+								"Philippians 4:13",
+								"psalm 23:1",
+								"romans 8:28",
+								"jeremiah 29:11",
+								"proverbs 3:5",
+								"isaiah 41:10",
+								"Matthew 5:14"
+							];
+							$randomRef = $references[array_rand($references)];
+
+							// Use Bible-API to fetch the verse text
+							$apiUrl = "https://bible-api.com/" . urlencode($randomRef);
+							$response = @file_get_contents($apiUrl);
+							$verseData = json_decode($response, true);
+
+							// Get random image from local folder
+							$images = glob("images/verse/*.{jpg,png,jpeg}", GLOB_BRACE);
+							$image = $images ? $images[array_rand($images)] : "images/default.jpg"; // fallback image
+
+							// Prepare verse output
+							$verseData = json_decode($response, true);
+							$verseText = isset($verseData['text']) ? str_replace("Yahweh", "the Lord", $verseData['text']) : "Verse unavailable.";
+							$verseReference = isset($verseData['reference']) ? $verseData['reference'] : $randomRef;
+						?>
+
+
 						<div class="owl-carousel owl-theme slide" id="featured">
 							<!-- Event 1 -->
 							<div class="item">
-							<article class="featured">
-								<div class="overlay"></div>
-								<figure>
-									<img src="images/20.png" loading="lazy" alt="Sunday Worship Service">
-								</figure>
-								<div class="details">
-									<div class="category"><a href="#">Sunday Worship Service</a></div>
-									<h1><a href="#">Our Live broadcast will soon be aired on TV. Stay tuned for more updates</a></h1>
-									<div class="time">Time & Channel TBC</div>
-								</div>
-							</article>
-
-							</div>
-							<!-- <div class="item">
 								<article class="featured">
 									<div class="overlay"></div>
 									<figure>
-										<img src="images/outreach/feeding_program.jpg" alt="Feeding Program Outreach">
+										<img src="<?= $image ?>" loading="lazy" alt="Bible Verse of the Day">
 									</figure>
 									<div class="details">
-										<div class="category"><a href="#">Global Ministries</a></div>
-										<h1><a href="#">Support our Feeding Program in Africa</a></h1>
-										<div class="time">March 20, 2025</div>
+										<div class="category"><a href="#">Verse of the Day</a></div>
+										<h1><a href="#"><?= "{$verseReference} – {$verseText}" ?></a></h1>
+										<div class="time"><?= date('l, F jS, Y') ?></div>
+									</div>
+								</article>
+							</div>
+<!-- 
+							<div class="item">
+								<article class="featured">
+									<div class="overlay"></div>
+									<figure>
+										<img src="<?= $image ?>" loading="lazy" alt="Bible Verse of the Day">
+									</figure>
+									<div class="details">
+										<div class="category"><a href="#">Verse of the Day</a></div>
+										<h1><a href="#"><?= "{$verseReference} – {$verseText}" ?></a></h1>
+										<div class="time"><?= date('l, F jS, Y') ?></div>
 									</div>
 								</article>
 							</div>
@@ -350,30 +380,21 @@
 												<h2 class="block-title">Our Photos</h2>
 												<div class="block-body">
 													<ul class="item-list-round" data-magnific="gallery">
-														<li><a href="images/1.jpg" style="background-image: url('images/1.jpg');"></a></li>
-														<li><a href="images/2.jpg" style="background-image: url('images/2.jpg');"></a></li>
-														<li><a href="images/3.jpg" style="background-image: url('images/3.jpg');"></a></li>
-														<li><a href="images/4.jpg" style="background-image: url('images/4.jpg');"></a></li>
-														<li><a href="images/5.jpg" style="background-image: url('images/5.jpg');"></a></li>
-														<li><a href="images/6.jpg" style="background-image: url('images/6.jpg');"></a></li>
-														<li><a href="images/7.jpg" style="background-image: url('images/7.jpg');"><div class="more">+14</div></a></li>
-														<li class="hidden"><a href="images/8.jpg" style="background-image: url('images/8.jpg');"></a></li>
-														<li class="hidden"><a href="images/9.jpg" style="background-image: url('images/9.jpg');"></a></li>
-														<li class="hidden"><a href="images/10.jpg" style="background-image: url('images/10.jpg');"></a></li>
-														<li class="hidden"><a href="images/13.jpg" style="background-image: url('images/13.jpg');"></a></li>
-														<li class="hidden"><a href="images/14.jpg" style="background-image: url('images/14.jpg');"></a></li>
-														<li class="hidden"><a href="images/15.jpg" style="background-image: url('images/15.jpg');"></a></li>
-														<li class="hidden"><a href="images/16.jpg" style="background-image: url('images/16.jpg');"></a></li>
-														<li class="hidden"><a href="images/17.jpg" style="background-image: url('images/17.jpg');"></a></li>
-														<li class="hidden"><a href="images/18.jpg" style="background-image: url('images/18.jpg');"></a></li>
-														<li class="hidden"><a href="images/19.jpg" style="background-image: url('images/19.jpg');"></a></li>
-														<li class="hidden"><a href="images/20.png" style="background-image: url('images/20.png');"></a></li>
-														<li class="hidden"><a href="images/IMG_0785.jpg" style="background-image: url('images/IMG_0785.jpg');"></a></li>
-														<li class="hidden"><a href="images/IMG_0787.jpg" style="background-image: url('images/IMG_0787.jpg');"></a></li>
-														<li class="hidden"><a href="images/IMG_0798.jpg" style="background-image: url('images/IMG_0798.jpg');"></a></li>
+														<?php
+														$imageFiles = glob("images/gallery/*.{jpg,jpeg,png}", GLOB_BRACE);
+														$visibleCount = 6; // Number of initially visible images
+														$count = 0;
+
+														foreach ($imageFiles as $index => $image) {
+															$isHidden = $index >= $visibleCount ? 'hidden' : '';
+															$moreText = $index == $visibleCount - 1 && count($imageFiles) > $visibleCount ? "<div class='more'>+" . (count($imageFiles) - $visibleCount) . "</div>" : "";
+															echo "<li class='{$isHidden}'><a href='{$image}' style='background-image: url(\"{$image}\");'>{$moreText}</a></li>";
+														}
+														?>
 													</ul>
 												</div>
 											</div>
+
 											<div class="featured-author-footer">
 												<a href="#">Explore Our Gallery</a>
 											</div>
