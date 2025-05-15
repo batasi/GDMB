@@ -57,7 +57,7 @@
 							$verseText = isset($verseData['text']) ? $verseData['text'] : "Verse unavailable at the moment.";
 							$verseReference = isset($verseData['reference']) ? $verseData['reference'] : $randomRef;
 							// Replace Yahweh or all-uppercase LORD with "the Lord"
-							$verseText = str_ireplace(['Yahweh', 'YHWH', 'LORD'], 'the Lord', $verseText);
+							$verseText = str_ireplace(['Yahweh', 'YHWH', 'LORD'], 'Lord', $verseText);
 						?>
 
 
