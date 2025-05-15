@@ -37,17 +37,24 @@
 							$randomRef = $references[array_rand($references)];
 
 							// Use Bible-API to fetch the verse text
-							$apiUrl = "https://bible-api.com/" . urlencode($randomRef);
-							$response = @file_get_contents($apiUrl);
-							$verseData = json_decode($response, true);
+							
 
 							// Get random image from local folder
 							$images = glob("images/verse/*.{jpg,png,jpeg}", GLOB_BRACE);
 							$image = $images ? $images[array_rand($images)] : "images/default.jpg"; // fallback image
 
-							// Prepare verse output
+							$randomRef = $references[array_rand($references)];
+							$apiUrl = "https://bible-api.com/" . urlencode($randomRef);
+
+							$ch = curl_init();
+							curl_setopt($ch, CURLOPT_URL, $apiUrl);
+							curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+							$response = curl_exec($ch);
+							curl_close($ch);
+
 							$verseData = json_decode($response, true);
-							$verseText = isset($verseData['text']) ? str_replace("Yahweh", "the Lord", $verseData['text']) : "Verse unavailable.";
+
+							$verseText = isset($verseData['text']) ? $verseData['text'] : "Verse unavailable at the moment.";
 							$verseReference = isset($verseData['reference']) ? $verseData['reference'] : $randomRef;
 						?>
 
