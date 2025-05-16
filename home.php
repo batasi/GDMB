@@ -37,7 +37,6 @@
 							$randomRef = $references[array_rand($references)];
 
 							// Use Bible-API to fetch the verse text
-							
 
 							// Get random image from local folder
 							$images = glob("images/verse/*.{jpg,png,jpeg}", GLOB_BRACE);

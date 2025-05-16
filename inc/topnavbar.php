@@ -66,7 +66,7 @@
 			</div>
 
 			<!-- Start nav -->
-			<nav class="menu" style="background-color:#3f0e3e;">
+			<nav class="menu">
 				<div class="container">
 					
 					<div class="mobile-toggle">
@@ -77,12 +77,12 @@
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
-							<li class="for-tablet nav-title"><a  style="color:white;">Menu</a></li>
-							<li class="for-tablet"><a href="./?p=login"  style="color:white;">Login</a></li>
-							<li class="for-tablet"><a href="./?p=register"  style="color:white;">Register</a></li>
-							<li><a href="./" style="color:white;">Home</a></li>
+							<li class="for-tablet nav-title"><a  >Menu</a></li>
+							<li class="for-tablet"><a href="./?p=login"  >Login</a></li>
+							<li class="for-tablet"><a href="./?p=register"  >Register</a></li>
+							<li><a href="./" >Home</a></li>
 							<li class="dropdown magz-dropdown">
-								<a href="./?p=about"  style="color:white;">About <i class="ion-ios-arrow-right"></i></a>
+								<a href="./?p=about" >About <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="./?p=mission">Our Mission & Vision</a></li>
 									<li><a href="./?p=core_values">Core Values</a></li>
@@ -91,14 +91,14 @@
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#"  style="color:white;">Bible Blogs<i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#" >Bible Blogs<i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="./?p=blogs/shepherd">Lord is my Shepherd</a></li>
 									<li><a href="./?p=blogs/faith">The power of faith</a></li>
 									<li><a href="./?p=blogs/baptism">Saved & Condemned</a></li>
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#"  style="color:white;">Events<i class="ion-ios-arrow-right"></i> <div class="badge">Upcoming</div></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Events<i class="ion-ios-arrow-right"></i> <div class="badge">Upcoming</div></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -146,7 +146,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#"  style="color:white;">Books<i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#" >Books<i class="ion-ios-arrow-right"></i></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -194,17 +194,17 @@
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#" style="color:white;">Appointments <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#">Appointments <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 								
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#" style="color:white;">Donations <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#">Donations <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 								
 								</ul>
 							</li>
-							<li><a href="./?p=contact" style="color:white;">Contact us</a></li>
+							<li><a href="./?p=contact">Contact us</a></li>
 
 						</ul>
 					</div>
