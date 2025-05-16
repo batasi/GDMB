@@ -68,11 +68,11 @@
 									<figure>
 										<img src="<?= $image ?>" loading="lazy" alt="Bible Verse of the Day">
 									</figure>
-									<div class="details">
+									<!-- <div class="details">
 										<div class="category"><a href="#">Verse of the Day</a></div>
 										<h1><a href="#"><?= "{$verseReference} – {$verseText}" ?></a></h1>
 										<div class="time"><?= date('l, F jS, Y') ?></div>
-									</div>
+									</div> -->
 								</article>
 							</div>
                             <!-- 
