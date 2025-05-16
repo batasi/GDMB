@@ -76,7 +76,7 @@
 									</div>
 								</article>
 							</div>
-<!-- 
+                            <!-- 
 							<div class="item">
 								<article class="featured">
 									<div class="overlay"></div>
