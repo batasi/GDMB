@@ -1013,10 +1013,13 @@
 						</h1>
 						<div class="aside-body">
 							<ul class="video-list" data-youtube='"carousel":true, "nav": "#video-list-nav"'>
-								<li><a data-youtube-id="GsT3w0W3Isw" data-action="magnific"></a></li>
-								<li><a data-youtube-id="sG9XELyani4" data-action="magnific"></a></li>
-								<li><a data-youtube-id="ZeLy2z29w5E" data-action="magnific"></a></li>
 								<li><a data-youtube-id="wA1cMMe9ccA" data-action="magnific"></a></li>
+								<li><a data-youtube-id="ZeLy2z29w5E" data-action="magnific"></a></li>
+							    <li><a data-youtube-id="sG9XELyani4" data-action="magnific"></a></li>
+							    <li><a data-youtube-id="JzpfX9Bgfwc" data-action="magnific"></a></li>
+							    <li><a data-youtube-id="vR1xPpRi3r0" data-action="magnific"></a></li>
+							    <li><a data-youtube-id="OcOn2z0aCog&t=187s" data-action="magnific"></a></li>
+
 							</ul>
 							<div class="sharing">
 								<ul class="social">
