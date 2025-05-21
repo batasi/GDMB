@@ -1013,6 +1013,7 @@
 						</h1>
 						<div class="aside-body">
 							<ul class="video-list" data-youtube='"carousel":true, "nav": "#video-list-nav"'>
+								<li><a data-youtube-id="PPnsCJh3g0E" data-action="magnific"></a></li>
 								<li><a data-youtube-id="wA1cMMe9ccA" data-action="magnific"></a></li>
 								<li><a data-youtube-id="ZeLy2z29w5E" data-action="magnific"></a></li>
 							    <li><a data-youtube-id="sG9XELyani4" data-action="magnific"></a></li>
