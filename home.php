@@ -670,7 +670,7 @@
 						<div class="inner">
 							<figure>
 								<a href="./?p=blogs/baptism">
-									<img src="images/bible/1.jpg" loading="lazy" alt="Sermon of the Week">
+									<img src="images/bible/5.jpg" loading="lazy" alt="Sermon of the Week">
 								</a>
 							</figure>
 							<div class="padding">
